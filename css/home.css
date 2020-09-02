@@ -1,0 +1,106 @@
+html, body{
+    height: 100%;
+}
+
+*{
+    margin: o;
+}
+
+.topnav{
+    background-color: red;
+    overflow: hidden;
+    padding: 14px;
+}
+
+a, li{
+    list-style: none;
+    display: inline;
+    color: seagreen;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.topnav a{
+    padding: 14px;
+}
+
+.topnav a:hover{
+    background-color: navy;
+    color: black;
+}
+
+div.hero-image{
+    background-image: url(/img/B1brq8kXTyWuhvOFgRbN_FoodHeads_April2019_180.jpg); height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.hero-text{
+    text-align: center;
+    padding-top: 20%;
+    color: skyblue;
+    text-transform: capitalize;
+}
+
+span{
+    color: navy;
+}
+
+button{
+    background-color: crimson;
+    color: darkcyan;
+    border-width: 5px;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+h1{
+    color: olive;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#tasty{
+    font-size: large;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p, i{
+    text-align: center;
+    color: royalblue;
+}
+
+h2{
+    color: darkblue;
+    text-align: center;
+}
+
+h3{
+    color: darkred;
+}
+
+#img{
+    display: flex;
+    background-color: bisque;
+    flex-flow: wrap;
+    padding: 5px;
+}
+
+.column img{
+    width: 200px;
+    height: 200px;
+    flex-flow: wrap;
+    margin: 14px;
+
+}
+
+footer{
+    background-color: red;
+    text-align: center;
+    padding: 14px;
+    margin: 14px;
+}
